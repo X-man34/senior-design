@@ -1,0 +1,38 @@
+metric,value
+inputs.motor_input,C:\Users\Caleb\Documents\School\Boise State University\Semesters\Senior Design\senior-design\motor-selection\data\Kraken X60.csv
+inputs.motor_source,Kraken X60.csv
+inputs.system_input,C:\Users\Caleb\Documents\School\Boise State University\Semesters\Senior Design\senior-design\motor-selection\data\system.csv
+inputs.system_source,system.csv
+inputs.cruising_wheel_rpm,250.0
+inputs.gear_reduction,23.0
+inputs.peak_acceleration,2.85
+inputs.motor_free_speed_rpm,6000.0
+fits.power_curve.rpm_squared_coefficient,-0.00012357237922530376
+fits.power_curve.rpm_coefficient,0.7495070958270963
+fits.power_curve.r_squared,1.0
+fits.motor_torque_curve.slope,-0.001180029299000001
+fits.motor_torque_curve.intercept,7.157265551000002
+fits.motor_torque_curve.r_squared,1.0
+fits.motor_current_curve.slope,-0.06125772826000003
+fits.motor_current_curve.intercept,374.38258320000006
+fits.motor_current_curve.r_squared,1.0
+fits.required_wheel_torque_curve.slope,16.658167978977605
+fits.required_wheel_torque_curve.intercept,1.7267758201338879
+fits.required_wheel_torque_curve.r_squared,1.0
+operating_points.cruising_motor_rpm,5750.0
+operating_points.cruising_wheel_torque_nm,8.558232880249914
+operating_points.cruising_power_w,224.05401286919778
+operating_points.cruising_current_a,22.150645704999874
+operating_points.peak_wheel_torque_nm,49.202554560220065
+operating_points.peak_motor_torque_nm,2.1392415026182636
+operating_points.peak_torque_rpm_point,4252.4571657959605
+operating_points.peak_wheel_rpm_point,184.8894419911287
+operating_points.peak_power_w,952.6390531190896
+operating_points.peak_current_a,113.88671770038121
+data_ranges.motor_rpm_min,0.0
+data_ranges.motor_rpm_max,6065.328680453382
+data_ranges.gear_ratio_sweep_min,1.0
+data_ranges.cruising_gear_ratio_sweep_max,24.0
+data_ranges.peak_gear_ratio_sweep_max,32.45182599603437
+data_ranges.peak_rpm_within_motor_data,True
+data_ranges.cruising_rpm_within_motor_data,True

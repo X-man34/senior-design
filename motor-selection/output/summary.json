@@ -1,0 +1,55 @@
+{
+  "inputs": {
+    "motor_input": "C:\\Users\\Caleb\\Documents\\School\\Boise State University\\Semesters\\Senior Design\\senior-design\\motor-selection\\data\\Kraken X60.csv",
+    "motor_source": "Kraken X60.csv",
+    "system_input": "C:\\Users\\Caleb\\Documents\\School\\Boise State University\\Semesters\\Senior Design\\senior-design\\motor-selection\\data\\system.csv",
+    "system_source": "system.csv",
+    "cruising_wheel_rpm": 250.0,
+    "gear_reduction": 23.0,
+    "peak_acceleration": 2.85,
+    "motor_free_speed_rpm": 6000.0
+  },
+  "fits": {
+    "power_curve": {
+      "rpm_squared_coefficient": -0.00012357237922530376,
+      "rpm_coefficient": 0.7495070958270963,
+      "r_squared": 1.0
+    },
+    "motor_torque_curve": {
+      "slope": -0.001180029299000001,
+      "intercept": 7.157265551000002,
+      "r_squared": 1.0
+    },
+    "motor_current_curve": {
+      "slope": -0.06125772826000003,
+      "intercept": 374.38258320000006,
+      "r_squared": 1.0
+    },
+    "required_wheel_torque_curve": {
+      "slope": 16.658167978977605,
+      "intercept": 1.7267758201338879,
+      "r_squared": 1.0
+    }
+  },
+  "operating_points": {
+    "cruising_motor_rpm": 5750.0,
+    "cruising_wheel_torque_nm": 8.558232880249914,
+    "cruising_power_w": 224.05401286919778,
+    "cruising_current_a": 22.150645704999874,
+    "peak_wheel_torque_nm": 49.202554560220065,
+    "peak_motor_torque_nm": 2.1392415026182636,
+    "peak_torque_rpm_point": 4252.4571657959605,
+    "peak_wheel_rpm_point": 184.8894419911287,
+    "peak_power_w": 952.6390531190896,
+    "peak_current_a": 113.88671770038121
+  },
+  "data_ranges": {
+    "motor_rpm_min": 0.0,
+    "motor_rpm_max": 6065.328680453382,
+    "gear_ratio_sweep_min": 1.0,
+    "cruising_gear_ratio_sweep_max": 24.0,
+    "peak_gear_ratio_sweep_max": 32.45182599603437,
+    "peak_rpm_within_motor_data": true,
+    "cruising_rpm_within_motor_data": true
+  }
+}
