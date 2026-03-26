@@ -13,7 +13,6 @@ __pycache__/
 # Large data artifacts
 data/raw/*
 data/interim/*
-data/processed/*
 !data/raw/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep

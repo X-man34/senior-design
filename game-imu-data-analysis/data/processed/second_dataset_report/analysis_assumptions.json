@@ -1,0 +1,61 @@
+{
+  "vehicle": {
+    "rider_mass_kg": 80.0,
+    "chair_mass_without_battery_kg": 35.0,
+    "system_mass_kg": 105.0,
+    "pack_voltage_v": 48.0,
+    "c_rr": 0.002,
+    "air_density_kg_m3": 1.225,
+    "cd_area_m2": 0.45,
+    "grade_rad": 0.0,
+    "aux_power_w": 40.0,
+    "equiv_rotational_inertia_kg_m2": 0.0,
+    "wheel_rotational_inertia_kg_m2_per_wheel": 0.2,
+    "gravity_m_s2": 9.80665,
+    "initial_battery_mass_guess_kg": 5.0,
+    "convergence_tol_kg": 0.05,
+    "max_iterations": 20
+  },
+  "motor": {
+    "name": "450w_bldc_planetary_16to1",
+    "motor_mass_kg": 3.5,
+    "driven_wheels": 2,
+    "wheel_radius_m": 0.29845,
+    "gear_ratio": 16.0,
+    "gear_efficiency": 0.9,
+    "torque_constant_nm_per_a": 0.12201365187713309,
+    "continuous_current_a": 11.72,
+    "peak_current_a": 35.24195804195804,
+    "drivetrain_efficiency": null,
+    "motor_efficiency": 0.85,
+    "rated_torque_nm": 1.43,
+    "peak_torque_nm": 4.3,
+    "rated_speed_rpm": 3000.0
+  },
+  "charles_signal": {
+    "resample_hz": 100.0,
+    "winsor_percentile": 99.9,
+    "lowpass_cutoff_hz": 0.5,
+    "lowpass_order": 4,
+    "bias_window_s": 20.0,
+    "v_max_m_s": 4.91744,
+    "representative_minutes": 60.0,
+    "session_hours": 2.0,
+    "forward_axis_override": null,
+    "use_acceleration_magnitude": false,
+    "max_realistic_accel_m_s2": 2.85
+  },
+  "caleb_signal": {
+    "resample_hz": 10.0,
+    "winsor_percentile": 99.5,
+    "lowpass_cutoff_hz": 0.35,
+    "lowpass_order": 2,
+    "bias_window_s": 12.0,
+    "v_max_m_s": 4.91744,
+    "representative_minutes": 60.0,
+    "session_hours": 2.0,
+    "forward_axis_override": null,
+    "use_acceleration_magnitude": false,
+    "max_realistic_accel_m_s2": 2.85
+  }
+}
